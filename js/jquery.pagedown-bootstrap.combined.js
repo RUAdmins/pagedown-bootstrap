@@ -3470,7 +3470,7 @@ else
 		output = exports;
 		Converter = require("./Markdown.Converter").Converter;
 	} else {
-		output = window.Markdown;
+		output = Markdown;
 		Converter = output.Converter;
 	}
 		
